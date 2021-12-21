@@ -1,0 +1,199 @@
+body
+{
+   background-color: #FFFFFF;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   line-height: 1.1875;
+   margin: 0;
+   padding: 0;
+}
+a
+{
+   color: #0000FF;
+   text-decoration: underline;
+}
+a:visited
+{
+   color: #800080;
+}
+a:active
+{
+   color: #FF0000;
+}
+a:hover
+{
+   color: #0000FF;
+   text-decoration: underline;
+}
+input:focus, textarea:focus, select:focus
+{
+   outline: none;
+}
+#Dialog1
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#Dialog1 .modal-content
+{
+   background-color: #FFFFFF;
+   background-image: none;
+   border: 1px solid #DDDDDD;
+   overflow: visible;
+   pointer-events: all;
+}
+#Dialog1.modal
+{
+   position: fixed;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+   z-index: 9999;
+   display: none;
+   overflow: hidden;
+   -webkit-overflow-scrolling: touch;
+   outline: 0;
+}
+#Dialog1 .modal-open .modal
+{
+   overflow-x: hidden;
+   overflow-y: auto;
+}
+#Dialog1 .modal-open
+{
+   overflow: hidden;
+}
+#Dialog1 .modal-dialog
+{
+   position: relative;
+   width: 603px;
+   margin-left: auto;
+   margin-right: auto;
+}
+#Dialog1 .modal-content
+{
+   position: relative;
+   -webkit-background-clip: padding-box;
+   background-clip: padding-box;
+   outline: 0;
+}
+#Dialog1 .modal-header
+{
+   padding: 10px 10px 10px 10px;
+   background-color: #E9E9E9;
+   border-bottom: 1px solid #DDDDDD;
+}
+#Dialog1 .modal-footer
+{
+   padding: 10px 10px 10px 10px;
+   border-top: 1px solid #DDDDDD;
+}
+#Dialog1 .modal-body
+{
+   position: relative;
+   width: 603px;
+   height: 457px;
+}
+#Dialog1 .close
+{
+   float: right;
+   font-size: 21px;
+   font-weight: 700;
+   line-height: 1;
+   color: #333333;
+   text-shadow: 0px 1px 0px #fff;
+   opacity: 0.5;
+   -webkit-appearance: none;
+   padding: 0;
+   cursor: pointer;
+   background: 0 0;
+   border: 0;
+   margin-top: -2px;
+}
+.modal-backdrop
+{
+   position: fixed;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+   z-index: 1040;
+   background-color: #000;
+}
+.modal-backdrop.fade
+{
+   opacity: 0;
+   -webkit-transition: opacity .15s linear;
+   transition: opacity .15s linear;
+}
+.modal-backdrop.show
+{
+   opacity: 0.5;
+}
+.modal-open
+{
+   overflow: hidden;
+}
+#Dialog1 .modal-header
+{
+   cursor: move;
+}
+#Dialog1 .modal-dialog-centered
+{
+   display: flex;
+   align-items: center;
+   margin: 1.75rem auto;
+   min-height: calc(100% - 3.5rem);
+   pointer-events: none;
+}
+#Dialog1 .modal-dialog-centered::before
+{
+   display: block;
+   height: calc(100vh - 3.5rem);
+   content: "";
+}
+#Dialog1 .modal-title
+{
+   color: #333333;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   font-style: normal;
+   margin: 0;
+}
+#Button1
+{
+   box-sizing: border-box;
+   line-height: 21px;
+   text-decoration: none;
+   vertical-align: top;
+   border: 1px solid #2E6DA4;
+   border-radius: 4px;
+   background-color: #3370B7;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 13px;
+   padding: 1px 6px 1px 6px;
+   text-align: center;
+   -webkit-appearance: none;
+   margin: 0;
+}
+#wb_Text1 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text1 div
+{
+   text-align: left;
+}
