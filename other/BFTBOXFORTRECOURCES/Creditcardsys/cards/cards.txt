@@ -1,0 +1,2 @@
+Card #   |name|vip|money|extras
+lead-0918|IDK|VIP|INFINITE|LEADER
