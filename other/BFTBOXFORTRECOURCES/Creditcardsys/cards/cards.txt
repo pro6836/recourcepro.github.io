@@ -1,2 +1,2 @@
 Card #   |name|vip|money|extras
-lead-0918|IDK|VIP|INFINITE|LEADER
+0291-2091-0294-2078|TEST TEST|vip:yes|money: 9000|test|city: boxfort city
